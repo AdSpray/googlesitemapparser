@@ -4,26 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d893ad6992206f0d782b911722b6961b",
+    "content-hash": "8dc75a7c792ae95f17e700fb2f0a5516",
     "packages": [
         {
             "name": "jyggen/curl",
-            "version": "v4.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jyggen/curl.git",
-                "reference": "cb9f9a8962bbb50f0e27c2f1d011d4732a775d23"
+                "reference": "c7e2367a492b53244568e90be5fc2e4b961522aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jyggen/curl/zipball/cb9f9a8962bbb50f0e27c2f1d011d4732a775d23",
-                "reference": "cb9f9a8962bbb50f0e27c2f1d011d4732a775d23",
+                "url": "https://api.github.com/repos/jyggen/curl/zipball/c7e2367a492b53244568e90be5fc2e4b961522aa",
+                "reference": "c7e2367a492b53244568e90be5fc2e4b961522aa",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "php": ">=5.4",
-                "symfony/http-foundation": "^2.0.5"
+                "symfony/http-foundation": "^2.0.5 || ^3.0"
             },
             "require-dev": {
                 "apigen/apigen": "^4.1.1",
@@ -68,7 +68,7 @@
                 "spider"
             ],
             "abandoned": "guzzlehttp/guzzle",
-            "time": "2016-09-13T16:25:27+00:00"
+            "time": "2017-01-13T11:45:32+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -127,7 +127,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "jyggen/curl": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
