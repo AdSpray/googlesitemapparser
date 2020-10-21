@@ -3,7 +3,7 @@
 namespace tzfrs;
 
 use SimpleXMLElement;
-use jyggen\Curl;
+use jyggen\Curl\Curl;
 use jyggen\Curl\Request;
 use tzfrs\Exceptions\GoogleSitemapParserException;
 
