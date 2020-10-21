@@ -1,4 +1,6 @@
-<?php namespace tzfrs;
+<?php
+
+namespace tzfrs;
 
 use SimpleXMLElement;
 use jyggen\Curl;
